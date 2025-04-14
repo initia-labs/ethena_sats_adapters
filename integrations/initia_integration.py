@@ -15,7 +15,7 @@ class InitiaIntegration(L2DelegationIntegration):
         integration_id: IntegrationID,
         start_block: int,
         chain: Chain = Chain.INITIA,
-        reward_multiplier: int = 1,
+        reward_multiplier: int = 30,
         end_block: Optional[int] = None,
     ):
         super().__init__(
