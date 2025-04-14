@@ -67,6 +67,13 @@ class IntegrationID(Enum):
     )
     PENDLE_ZIRCUIT_USDE_YT = ("pendle_zircuit_usde_yt_held", "Pendle Zircuit USDe YT")
 
+    # Initia
+    INITIA_SUSDE_LP = (
+        "initia_susde_init_lp",
+        "Initia sUSDe/INIT LP",
+        Token.SUSDE,
+    )
+
     # Thala
     THALA_SUSDE_LP = (
         "thala_susde_usdc_lp",
